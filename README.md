@@ -1,38 +1,115 @@
-# VERTEX - Full-Stack AI Code Reviewer 🚀
+# 🚀 VERTEX — Full-Stack AI Code Reviewer
 
-VERTEX is a modern, developer-focused full-stack web application designed to act as an automated senior engineer. By integrating an advanced language model engine with a clean, IDE-inspired workspace, the platform provides deep structural analysis, bug tracking, vulnerability scanning, and multi-format logic explanations for code blocks across multiple programming languages.
+> An intelligent, full-stack code review platform that acts as your AI-powered senior engineer. VERTEX analyzes source code, detects potential issues, explains logic, suggests improvements, and helps developers write cleaner, safer, and more maintainable software.
 
-
-
-## 🎯 Platform Features
-- **Comprehensive Auditing:** Automatically estimates execution complexity, evaluates readability, checks security compliance, and generates optimal refactored alternatives.
-- **Multi-Mode Explanation Engine:** Tailors logic break-downs to your specific needs, supporting high-level summaries, detailed technical line-by-line tracing, or beginner-friendly conceptual analogies.
-- **IDE Aesthetic:** Equipped with an ultra-responsive dark-themed split dashboard utilizing clean modern layouts, copy utilities, and error diagnostic panels.
-- **Language Adaptability:** Built to review and parse code across Python, JavaScript, TypeScript, Java, Go, Rust, C++, C#, C, and PHP.
+Built with **React, TypeScript, FastAPI, and Gemini AI**, VERTEX delivers a modern IDE-inspired experience for automated code auditing and explanation.
 
 ---
 
-## 🛠️ Technical Architecture & Ecosystem
+## ✨ Features
 
-### Frontend Client
-- **Core Library:** React 19 with TypeScript
-- **Build Engine:** Vite
-- **Styling Architecture:** Tailwind CSS v4
-- **Icon Suite:** Lucide React
+### 🔍 Intelligent Code Analysis
+Analyze code across multiple dimensions:
 
-### Backend Server Engine
-- **Framework:** FastAPI (Python 3.12)
-- **ASGI Server:** Uvicorn (With hot-reloading active)
-- **AI Integration Core:** New Official `google-genai` SDK
-- **Model Engine:** Gemini 2.5 Flash
+- Bug detection
+- Security vulnerability scanning
+- Performance analysis
+- Code quality assessment
+- Readability evaluation
+- Best practice recommendations
+
+### 🧠 AI-Powered Explanations
+
+Understand code faster with multiple explanation modes:
+
+- **Quick Summary** — High-level overview
+- **Detailed Analysis** — In-depth technical explanation
+- **Line-by-Line Breakdown** — Step-by-step logic tracing
+- **Beginner Mode** — Simplified conceptual explanations
+
+### ⚡ Automated Refactoring Suggestions
+
+Receive AI-generated recommendations for:
+
+- Cleaner architecture
+- Improved readability
+- Better naming conventions
+- Reduced code duplication
+- Enhanced maintainability
+
+### 🎨 Modern Developer Experience
+
+- Premium dark-mode interface
+- IDE-inspired split-screen layout
+- Responsive design
+- Real-time feedback panels
+- Copy-to-clipboard utilities
+- Smooth and intuitive user interactions
 
 ---
 
-## 📂 Repository Layout Blueprint
+## 🌐 Supported Languages
+
+VERTEX supports reviewing code written in:
+
+- Python
+- JavaScript
+- TypeScript
+- Java
+- Go
+- Rust
+- C++
+- C#
+- C
+- PHP
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+| Technology | Purpose |
+|------------|---------|
+| React 19 | UI Development |
+| TypeScript | Type Safety |
+| Vite | Build Tool |
+| Tailwind CSS v4 | Styling |
+| Lucide React | Icons |
+
+### Backend
+
+| Technology | Purpose |
+|------------|---------|
+| FastAPI | API Framework |
+| Python 3.12 | Backend Runtime |
+| Uvicorn | ASGI Server |
+| Google GenAI SDK | AI Integration |
+| Gemini 2.5 Flash | Large Language Model |
+
+---
+
+## 🏗️ System Architecture
+
 ```text
+User Interface (React + TypeScript)
+                │
+                ▼
+        FastAPI REST API
+                │
+                ▼
+       Gemini AI Integration
+                │
+                ▼
+      Structured Review Report
+```
+
+---
+
+## 📂 Project Structure
+
+```plaintext
 ai-code-reviewer/
-├── .gitignore
-├── README.md
 │
 ├── backend/
 │   ├── requirements.txt
@@ -45,13 +122,171 @@ ai-code-reviewer/
 │           ├── __init__.py
 │           └── ai_service.py
 │
-└── frontend/
-    ├── package.json
-    ├── package-lock.json
-    ├── vite.config.ts
-    ├── index.html
-    └── src/
-        ├── App.tsx
-        ├── index.css
-        ├── assets/
-        └── components/
+├── frontend/
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── vite.config.ts
+│   ├── index.html
+│   └── src/
+│       ├── App.tsx
+│       ├── index.css
+│       ├── assets/
+│       └── components/
+│
+├── .gitignore
+└── README.md
+```
+
+---
+
+## ⚙️ Local Development Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/AqsaAliRazaJamali/ai-code-reviewer.git
+cd ai-code-reviewer
+```
+
+Or download the repository as a ZIP file from GitHub and extract it locally.
+
+---
+
+### 2️⃣ Backend Setup
+
+Navigate to the backend directory:
+
+```bash
+cd backend
+```
+
+Create a `.env` file inside the `backend/` directory:
+
+```env
+GEMINI_API_KEY=your_gemini_api_key_here
+```
+
+Install backend dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Start the FastAPI server:
+
+```bash
+cd app
+python -m uvicorn main:app --host 127.0.0.1 --port 8000 --reload
+```
+
+Backend will be available at:
+
+```text
+http://127.0.0.1:8000
+```
+
+---
+
+### 3️⃣ Frontend Setup
+
+Open a new terminal and navigate to the frontend directory:
+
+```bash
+cd frontend
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Launch the development server:
+
+```bash
+npm run dev
+```
+
+Frontend will be available at:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 🔒 Security & Privacy
+
+VERTEX follows a privacy-first approach.
+
+### Security Measures
+
+- API keys are securely managed using environment variables.
+- No source code is permanently stored.
+- User submissions are processed as temporary stateless requests.
+- Sensitive credentials remain isolated from frontend exposure.
+- Cross-Origin Resource Sharing (CORS) is configured to enable secure communication between client and server.
+
+---
+
+## 📸 Screenshots
+
+
+```md
+![Dashboard](<img width="912" height="439" alt="DashboardAi" src="https://github.com/user-attachments/assets/a0332339-664f-412e-b0ba-73b54918da14" />
+)
+```
+
+---
+
+## 🎯 Learning Outcomes
+
+This project demonstrates:
+
+- Full-Stack Development
+- AI Integration
+- Prompt Engineering
+- REST API Design
+- State Management
+- TypeScript Development
+- Secure Environment Configuration
+- Modern UI/UX Design
+- Error Handling
+- Software Engineering Principles
+
+---
+
+## 🔮 Future Enhancements
+
+- GitHub Repository Review
+- Multi-File Analysis
+- Downloadable Review Reports
+- Code History
+- Authentication & User Accounts
+- AI Chat Assistant
+- Streaming Responses
+- Docker Deployment
+
+---
+
+## 👩‍💻 Author
+
+**Aqsa Jamali**
+
+Computer Science Student | Frontend Developer | Aspiring AI & Machine Learning Engineer
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+<div align="center">
+
+### ⭐ If you found this project useful, consider giving it a star!
+
+Built with ❤️ using React, FastAPI, and Gemini AI.
+
+</div>
