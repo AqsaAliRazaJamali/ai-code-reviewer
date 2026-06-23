@@ -89,7 +89,7 @@ VERTEX supports reviewing code written in:
 
 ---
 
-##  System Architecture
+## 🏗️ System Architecture
 
 ```text
 User Interface (React + TypeScript)
