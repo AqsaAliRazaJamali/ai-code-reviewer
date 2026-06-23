@@ -6,7 +6,7 @@ Built with **React, TypeScript, FastAPI, and Gemini AI**, VERTEX delivers a mode
 
 ---
 
-## ── Features ──
+## ═════════════════ FEATURES ═════════════════
 
 ###  Intelligent Code Analysis
 Analyze code across multiple dimensions:
