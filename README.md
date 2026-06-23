@@ -1,32 +1,57 @@
-# React + TypeScript + Vite
+# VERTEX - Full-Stack AI Code Reviewer 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+VERTEX is a modern, developer-focused full-stack web application designed to act as an automated senior engineer. By integrating an advanced language model engine with a clean, IDE-inspired workspace, the platform provides deep structural analysis, bug tracking, vulnerability scanning, and multi-format logic explanations for code blocks across multiple programming languages.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+## 🎯 Platform Features
+- **Comprehensive Auditing:** Automatically estimates execution complexity, evaluates readability, checks security compliance, and generates optimal refactored alternatives.
+- **Multi-Mode Explanation Engine:** Tailors logic break-downs to your specific needs, supporting high-level summaries, detailed technical line-by-line tracing, or beginner-friendly conceptual analogies.
+- **IDE Aesthetic:** Equipped with an ultra-responsive dark-themed split dashboard utilizing clean modern layouts, copy utilities, and error diagnostic panels.
+- **Language Adaptability:** Built to review and parse code across Python, JavaScript, TypeScript, Java, Go, Rust, C++, C#, C, and PHP.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🛠️ Technical Architecture & Ecosystem
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+### Frontend Client
+- **Core Library:** React 19 with TypeScript
+- **Build Engine:** Vite
+- **Styling Architecture:** Tailwind CSS v4
+- **Icon Suite:** Lucide React
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+### Backend Server Engine
+- **Framework:** FastAPI (Python 3.12)
+- **ASGI Server:** Uvicorn (With hot-reloading active)
+- **AI Integration Core:** New Official `google-genai` SDK
+- **Model Engine:** Gemini 2.5 Flash
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+---
+
+## 📂 Repository Layout Blueprint
+```text
+ai-code-reviewer/
+├── .gitignore
+├── README.md
+│
+├── backend/
+│   ├── requirements.txt
+│   └── app/
+│       ├── __init__.py
+│       ├── config.py
+│       ├── main.py
+│       ├── schemas.py
+│       └── services/
+│           ├── __init__.py
+│           └── ai_service.py
+│
+└── frontend/
+    ├── package.json
+    ├── package-lock.json
+    ├── vite.config.ts
+    ├── index.html
+    └── src/
+        ├── App.tsx
+        ├── index.css
+        ├── assets/
+        └── components/
