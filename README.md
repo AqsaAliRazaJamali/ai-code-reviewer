@@ -48,7 +48,7 @@ Receive AI-generated recommendations for:
 
 ---
 
-##  Supported Languages
+## ═══════════════ Supported Languages ═══════════════
 
 VERTEX supports reviewing code written in:
 
@@ -65,7 +65,7 @@ VERTEX supports reviewing code written in:
 
 ---
 
-## 🛠️ Tech Stack
+## ═══════════════ TECH STACK ═══════════════
 
 ### Frontend
 
@@ -89,7 +89,7 @@ VERTEX supports reviewing code written in:
 
 ---
 
-## 🏗️ System Architecture
+## ═════════ SYSTEM ARCHITECTURE ═════════
 
 ```text
 User Interface (React + TypeScript)
@@ -252,7 +252,7 @@ This project demonstrates:
 
 ---
 
-##  Future Enhancements
+## ═════════ FUTURE ROADMAP ═════════
 
 - GitHub Repository Review
 - Multi-File Analysis
