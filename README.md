@@ -1,4 +1,4 @@
-# 🚀 VERTEX — Full-Stack AI Code Reviewer
+#  VERTEX — Full-Stack AI Code Reviewer
 
 > An intelligent, full-stack code review platform that acts as your AI-powered senior engineer. VERTEX analyzes source code, detects potential issues, explains logic, suggests improvements, and helps developers write cleaner, safer, and more maintainable software.
 
@@ -8,7 +8,7 @@ Built with **React, TypeScript, FastAPI, and Gemini AI**, VERTEX delivers a mode
 
 ## ✨ Features
 
-### 🔍 Intelligent Code Analysis
+###  Intelligent Code Analysis
 Analyze code across multiple dimensions:
 
 - Bug detection
@@ -18,7 +18,7 @@ Analyze code across multiple dimensions:
 - Readability evaluation
 - Best practice recommendations
 
-### 🧠 AI-Powered Explanations
+###  AI-Powered Explanations
 
 Understand code faster with multiple explanation modes:
 
@@ -27,7 +27,7 @@ Understand code faster with multiple explanation modes:
 - **Line-by-Line Breakdown** — Step-by-step logic tracing
 - **Beginner Mode** — Simplified conceptual explanations
 
-### ⚡ Automated Refactoring Suggestions
+###  Automated Refactoring Suggestions
 
 Receive AI-generated recommendations for:
 
@@ -37,7 +37,7 @@ Receive AI-generated recommendations for:
 - Reduced code duplication
 - Enhanced maintainability
 
-### 🎨 Modern Developer Experience
+###  Modern Developer Experience
 
 - Premium dark-mode interface
 - IDE-inspired split-screen layout
@@ -229,7 +229,7 @@ VERTEX follows a privacy-first approach.
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 <img width="912" height="439" alt="DashboardAi" src="https://github.com/user-attachments/assets/d1b5a906-9f7a-4ab4-9df5-2a4988dd459c" />
 ```
 
