@@ -230,11 +230,8 @@ VERTEX follows a privacy-first approach.
 ---
 
 ## 📸 Screenshots
+<img width="912" height="439" alt="DashboardAi" src="https://github.com/user-attachments/assets/d1b5a906-9f7a-4ab4-9df5-2a4988dd459c" />
 
-
-```md
-![Dashboard]
-<img width="912" height="439" alt="DashboardAi" src="https://github.com/user-attachments/assets/590baf9b-46ff-4e3e-b27b-75925ebafb4d" />
 
 ```
 
