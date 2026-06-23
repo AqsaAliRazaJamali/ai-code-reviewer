@@ -233,8 +233,9 @@ VERTEX follows a privacy-first approach.
 
 
 ```md
-![Dashboard](<img width="912" height="439" alt="DashboardAi" src="https://github.com/user-attachments/assets/a0332339-664f-412e-b0ba-73b54918da14" />
-)
+![Dashboard]
+<img width="912" height="439" alt="DashboardAi" src="https://github.com/user-attachments/assets/590baf9b-46ff-4e3e-b27b-75925ebafb4d" />
+
 ```
 
 ---
