@@ -229,7 +229,7 @@ VERTEX follows a privacy-first approach.
 
 ---
 
-##  Screenshots
+##  ═════════════════ Screenshots ═════════════════
 <img width="912" height="439" alt="DashboardAi" src="https://github.com/user-attachments/assets/d1b5a906-9f7a-4ab4-9df5-2a4988dd459c" />
 ```
 
